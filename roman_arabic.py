@@ -89,8 +89,16 @@ def romeToArab(number):
             if index > 0:
                 if num <= numbers[index - 1]:
                     answer += num
-                else:
+                elif index > 1:
+                    if num > numbers[index - 1] and numbers[index - 1] * 10 == num and num <= numbers[index - 2]:
+                        answer = answer - numbers[index - 1] * 2 + num
+                    else:
+                        return "Это не римское число"
+                elif num > numbers[index - 1] and numbers[index - 1] * 10 == num:
                     answer = answer - numbers[index - 1] * 2 + num
+                else:
+                    return "Это не римское число"
+                    
             else:
                 answer += num
         return answer if answer is not None else "Это не римское число!"
