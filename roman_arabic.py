@@ -57,8 +57,7 @@ def nearNum(num, bias, o_rank):
                 return answer + convert(bias // val) * val
             return answer
         return convert(bias // val) + answer
-    
-
+ 
 
 def arabToRome(number):
     try:
