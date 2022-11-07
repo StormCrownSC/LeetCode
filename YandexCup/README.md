@@ -1,1 +1,1 @@
-Here is the solution of tasks with the Yandex Cup
+Here will the solution of tasks with the Yandex Cup
