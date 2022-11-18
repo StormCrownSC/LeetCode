@@ -1,4 +1,5 @@
 class Solution(object):
+    def maxProfit(self, prices):
 		# It is impossible to sell stock on first day, set -infinity as initial value for cur_hold
         cur_hold, cur_not_hold = -float('inf'), 0
         
