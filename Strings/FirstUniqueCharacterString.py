@@ -8,3 +8,7 @@ if __name__ == "__main__":
     print(Solution.firstUniqChar("leetcode"))
     print(Solution.firstUniqChar("loveleetcode"))
     print(Solution.firstUniqChar("aabb"))
+
+"""
+Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+"""
