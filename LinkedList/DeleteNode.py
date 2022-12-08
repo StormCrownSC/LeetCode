@@ -28,9 +28,3 @@ class Solution(object):
         """
         node.val = node.next.val
         node.next = node.next.next
-
-
-if __name__ == "__main__":
-    s = Solution()
-    print(s.deleteNode(5))
-    print(s.deleteNode(1))
