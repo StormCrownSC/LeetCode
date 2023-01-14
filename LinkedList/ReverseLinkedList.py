@@ -14,4 +14,7 @@ class Solution:
             last = val
             val = tmp
         return last
-    
+
+"""
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+"""
