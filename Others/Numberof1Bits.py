@@ -7,7 +7,6 @@ class Solution:
         while n >= 1:
             answer += str(n % 2)
             n //= 2
-        answer += "n"
         return answer[::-1]
 
 """
